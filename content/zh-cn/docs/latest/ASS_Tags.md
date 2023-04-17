@@ -164,7 +164,7 @@ to see "not bold" and "bold" in that case.
 Switch <u>underlined</u> text on or off. Use `\u1` to enable underlining for
 the following text and `\u0` to disable underlining again.
 
-打开或关闭 <u>\_\_下划线</u>
+打开或关闭 <u>下划线</u>
 选项。利用`\u1`对后面的字符应用下划线，并且可以用`\u0`使后面的字符取消下划线。
 
 {{<tag-def-box title="删除线" id="\s">}}
@@ -296,7 +296,7 @@ uses a more advanced algorithm that looks better at high strengths. Unlike
 disable the effect. Be careful, setting _strength_ too high can take a lot of
 CPU time to render.
 
-通常来说，这个标签和[\`\\be\`]({{< relref "ASS_Tags#bluredges" >}})标签的功能相似，但是它使用了一个更高级的算法让它在高强度上看起来更好。和`\be`不一样，这个
+通常来说，这个标签和 [\\be]({{< relref "ASS_Tags#bluredges" >}}) 标签的功能相似，但是它使用了一个更高级的算法让它在高强度上看起来更好。和`\be`不一样，这个
 *strength* 可以不是整数。设置 *strength* 为0使模糊效果消失。小心点，把
 *strength* 设置的太高的话，渲染时会占用大量 CPU 时间。
 
@@ -306,7 +306,7 @@ border will be blurred, but if there is no border, the main text will be
 blurred instead.
 
 注意，这个标签会模糊文本的 *边框*
-，不是全部。也就是说，如果文本有边框（用[\`\\bord\`]({{< relref "ASS_Tags#borderwidth" >}})标签进行设置），那么边框会被模糊，但是如果没有边框，那么文本的主体就会被模糊。
+，不是全部。也就是说，如果文本有边框（用 [\\bord]({{< relref "ASS_Tags#borderwidth" >}}) 标签进行设置），那么边框会被模糊，但是如果没有边框，那么文本的主体就会被模糊。
 
 {{<tag-def-box title="字体名称" id="\fn">}}\\fn<i>\<字体名称></i>{{</tag-def-box>}}
 Set the font face to use for the following text. There should be no space
